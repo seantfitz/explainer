@@ -5,85 +5,15 @@
 		<meta charset="utf-8" />
 		<title>Swiper demo</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1"/>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
 		<!-- Link Swiper's CSS -->
 		<link rel="stylesheet"href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
-
+		<link rel="stylesheet"href="css/style.css">
 		<!-- Demo styles -->
 		<style>
-			html,
-			body {
-				position: relative;
-				height: 100%;
-			}
+			
 
-			body {
-				background: #eee;
-				font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
-				font-size: 14px;
-				color: #000;
-				margin: 0;
-				padding: 0;
-			}
-
-			.swiper {
-				width: 100%;
-				height: 100%;
-
-				width: 870px;
-				height: 600px;
-			}
-
-			.swiper-slide {
-				/*text-align: center;*/
-				font-size: 18px;
-				background: #fff;
-
-				/* Center slide text vertically */
-				display: -webkit-box;
-				display: -ms-flexbox;
-				display: -webkit-flex;
-				display: flex;
-				-webkit-box-pack: center;
-				-ms-flex-pack: center;
-				-webkit-justify-content: center;
-				justify-content: center;
-				-webkit-box-align: center;
-				-ms-flex-align: center;
-				-webkit-align-items: center;
-				align-items: center;
-			}
-
-			.swiper-slide img {
-				display: block;
-				width: 100%;
-				height: 100%;
-				object-fit: cover;
-			}
-
-			.textBox{
-				max-width: 50%;
-				max-height: 580px;
-			}
-
-			.swiper-button-white{
-				/*padding: 5px;*/
-				position: absolute;
-				width: 50px;
-				height: 50px;
-				border-radius: 25px;
-				-webkit-backdrop-filter: blur(2px);
-				backdrop-filter: blur(2px);
-				border: solid 1.5px rgba(255, 255, 255, 0.2);
-				background-color: rgba(255, 255, 255, 0.2);
-
-				border-radius: 50%;
-			}
-
-			.picBox{
-				width: 435px;
-				height: 580px;
-				background-color: rgba(0, 0, 0, 1.0);
-			}
+			
 		</style>
 	</head>
 
@@ -91,21 +21,107 @@
 		<!-- Swiper -->
 		<div class="swiper mySwiper">
 			<div class="swiper-wrapper">
+				
 				<div class="swiper-slide">
-					<div class="textBox">
-						<p>Poutine nisi af elit kickstarter. Voluptate id exercitation pickled chia blue bottle nostrud quis irure fugiat. Ipsum iPhone you probably haven't heard of them minim pork belly offal poke echo park fingerstache godard kale chips. Irure art party affogato bespoke eu. Master cleanse est try-hard aesthetic, pour-over food truck eiusmod echo park succulents non et gentrify trust fund irony kogi.</p>
+					<div class="contentBox textBox">
+						<h2>Central Civil Works Package facts</h2>
+						<p>Length; Approximately 15km of new rail corridor and 83km of existing rail corridor. 51km of standard gauge and 47km of dual gauge.</p>
+						<p>Constructed by; Freight Connect (a consortium led by Laing O’Rourke and including FKG Group)</p>
+						<p>Shovels hit ground; 2022</p>
 					</div>
-					<div class="picBox">p</div>
+					<div class="contentBox picBox" style="background-image: url(images/pic1.jpeg);">
+						<div class="imgCredit">Image Credit</div>
+					</div>
 				</div>
-				<div class="swiper-slide">Slide 2</div>
-				<div class="swiper-slide">Slide 3</div>
-				<div class="swiper-slide">Slide 4</div>
-				<div class="swiper-slide">Slide 5</div>
-				<div class="swiper-slide">Slide 6</div>
-				<div class="swiper-slide">Slide 7</div>
-				<div class="swiper-slide">Slide 8</div>
-				<div class="swiper-slide">Slide 9</div>
+
+				<div class="swiper-slide">
+					<div class="contentBox textBox">
+						<h2>Jobs</h2>
+						<p>Estimated workforce; 500 workers</p>
+						<h2>Earthworks</h2>
+						<p>Structural cut; 200,000m3</p>
+						<p>General fill; 2,200,000m3</p>
+					</div>
+					<div class="contentBox picBox" style="background-image: url(images/pic2.jpeg);">
+						<div class="imgCredit">Image Credit</div>
+					</div>
+				</div>
+
+				<div class="swiper-slide">
+					<div class="contentBox textBox">
+						<h2>Structures</h2>
+						<p>Bridge crossings; 20 rail bridges (including 1.7km bridge over Macintyre River and Whalen Creek)</p>
+						<p>Crossing loops; Two (each 2.2km long)</p>
+						<p>Public level crossings; 16 public road level crossings (eight in NSW, eight in Qld)</p>
+						<p>Grade separations; Three rail-over-road</p>
+					</div>
+					<div class="contentBox picBox" style="background-image: url(images/pic3.jpeg);">
+						<div class="imgCredit">Image Credit</div>
+					</div>
+				</div>
+
+				<div class="swiper-slide">
+					<div class="contentBox textBox">
+						<p>The consortium to build the Inland Rail section between North Star and Whetstone has been announced and local businesses and communities are in line for jobs and contracts.</p>
+						<p>The Goondiwindi region is about to experience a ramping up of economic activity with the construction of the North Star to Whetstone section of Inland Rail taking another step forward.</p>
+					</div>
+					<div class="contentBox picBox" style="background-image: url(images/pic1.jpeg);">
+						<div class="imgCredit">Image Credit</div>
+					</div>
+				</div>
+
+				<div class="swiper-slide">
+					<div class="contentBox textBox">
+						<p>The Australian Rail Track Corporation (ARTC) has announced Freight Connect will build the 85km section between North Star in NSW and Whetstone in Queensland, east of Goondiwindi, once the NSW, Queensland and federal approvals are finalised.</p>
+					</div>
+					<div class="contentBox picBox">
+						<iframe src="https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d448029.7169440784!2d150.47238433925142!3d-28.682700974342968!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e0!4m5!1s0x6ba3a8dd421f64cf%3A0x40609b49043bb00!2sNorth%20Star%20NSW%202408!3m2!1d-28.932582399999998!2d150.39123419999999!4m5!1s0x6ba2c8df4ab43137%3A0x400eef17f20bca0!2sWhetstone%20QLD!3m2!1d-28.4933277!2d150.9153205!5e0!3m2!1sen!2sau!4v1634007965499!5m2!1sen!2sau" width="100%" height="100%" style="border:0;" allowfullscreen=""></iframe>
+					</div>
+				</div>
+
+				<div class="swiper-slide">
+					<div class="contentBox textBox">
+						<p>Multi-national construction firm Laing O’Rourke is leading the Freight Connect consortium, which includes Toowoomba-based FKG Group, and has committed to working with local businesses and leaving a legacy after works have been completed.</p>
+						<p>And a large local workforce to support this part of the project will be needed, with an estimated 500 workers on deck at the peak of construction.</p>
+						<p>ARTC Inland Rail interim CEO Rebecca Pickering said the appointment of the consortium, in parallel with environmental planning approvals, would allow local businesses to hit the ground running when formal approval is given.</p>
+					</div>
+					<div class="contentBox picBox" style="background-image: url(images/pic2.jpeg);">
+						<div class="imgCredit">Image Credit</div>
+					</div>
+				</div>
+
+				<div class="swiper-slide">
+					<div class="contentBox textBox">
+						<p>“Freight Connect will soon be seeking partnerships with businesses and skilled operators that can support project delivery such as transport operators, fencing, quarries, earthworks and electrical companies,” she said.</p>
+						<p>The appointment of Freight Connect now also allows them to maximise local jobs and procurement before work is expected to begin next year.</p>
+						<p>“Our business has long and deep relationships in both Queensland and NSW stretching over 50 years where we have delivered a number of major projects and we are delighted to be granted the opportunity to play our part in this once-in-a-generation piece of infrastructure,” Laing O’Rourke Managing Director Cathal O’Rourke said.</p>
+						<p><b>This part of the Inland Rail project will build approximately 100km of rail corridor within the southern end of Border to Gowrie, North Star to Border and Narrabri to North Star sections of Inland Rail, including the bridge that spans the Macintyre River which serves as the border between the two states.”</b></p>
+					</div>
+					<!-- <div class="contentBox picBox" style="background-image: url(images/pic2.jpeg);"></div> -->
+				</div>
+
+				<div class="swiper-slide">
+					<div class="contentBox textBox">
+						<p>A fully costed proposal for the first of the works packages is expected next year. The ARTC also confirmed a Brisbane-based joint venture made up of Bielby Holdings Pty Ltd, JF Hull Holdings Pty Ltd and QH&M Birt Pty Ltd would deliver civil works for more than 160km of rail line from Yelarbon at the NSW/Queensland border to Gowrie Junction near Toowoomba.</p>
+					</div>
+					<div class="contentBox picBox" style="background-image: url(images/pic3.jpeg);">
+						<div class="imgCredit">Image Credit</div>
+					</div>
+				</div>
+
+				<div class="swiper-slide">
+					<div class="contentBox textBox">
+						<p>The $14.5 billion, 1700km Inland Rail, one of Australia’s largest ever infrastructure projects, will connect Melbourne to Brisbane, and would allow the delivery of goods in about 24 hours.</p>
+						<p>But it has not been without controversies, with ongoing campaigns to change the route through Millmerran and Cecil Plains and a push for it to terminate at Gladstone, rather than Brisbane.</p>
+						<p>Inland Rail has already committed 641 contracts to businesses in Queensland and 657 in NSW worth more than $1.95 billion across the two states.</p>
+					</div>
+					<div class="contentBox picBox" style="background-image: url(images/pic1.jpeg);">
+						<div class="imgCredit">Image Credit</div>
+					</div>
+				</div>
+
 			</div>
+			<div class="explainerTitle">Inland Rail – North Star to Whetstone stage</div>
 			<div class="swiper-pagination"></div>
 			<div class="swiper-button-next swiper-button-white"></div>
 			<div class="swiper-button-prev swiper-button-white"></div>
@@ -116,6 +132,22 @@
 
 		<!-- Initialize Swiper -->
 		<script>
+
+			// let arr = [1,2,3]
+
+			// const populate = ()=>{
+			// 	for(let i in arr){
+			// 		console.log(i)
+			// 		$('.swiper-wrapper').append(`
+			// 			<div class="swiper-slide">
+			// 				<div class="contentBox textBox">new text box</div>
+			// 			</div>
+			// 		`)
+			// 	}
+			// }
+			// populate()
+
+
 			var swiper = new Swiper(".mySwiper", {
 				pagination: {
 					el: ".swiper-pagination",

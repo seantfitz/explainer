@@ -1,0 +1,136 @@
+html,
+body {
+	position: relative;
+	height: 100%;
+}
+
+body {
+	background: #eee;
+	font-family: Roboto, Helvetica Neue, Helvetica, Arial, sans-serif;
+	font-size: 14px;
+	color: #000;
+	margin: 0;
+	padding: 0;
+}
+
+.swiper {
+	width: 870px;
+	height: 600px;
+}
+
+.swiper-slide {
+	font-size: /*18px*/;
+	background: #fff;
+
+	/* Center slide text vertically */
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	-webkit-justify-content: center;
+	justify-content: center;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	-webkit-align-items: center;
+	align-items: center;
+
+	height: 490px;
+	top: 55px;
+	overflow: hidden;
+}
+
+.swiper-pagination{
+	bottom: 20px!important;
+}
+
+.swiper-button-white{
+	position: absolute;
+	width: 40px;
+	height: 40px;
+
+	border-radius: 25px;
+	-webkit-backdrop-filter: blur(2px);
+	backdrop-filter: blur(2px);
+	/*border: solid 1.5px rgba(255, 255, 255, 0.2);
+	background-color: rgba(255, 255, 255, 0.2);*/
+
+	border: solid 1.5px rgba(0, 0, 0, 0.2);
+	background-color: rgba(0, 0, 0, 0.2);
+
+	border-radius: 50%;
+
+	box-sizing: border-box;
+
+	top: 575px;
+}
+
+.contentBox{
+	flex: 1;
+	/*padding: 20px;*/
+	box-sizing: border-box;
+}
+
+.explainerTitle{
+	position: absolute;
+	top: 0px;
+	display: flex;
+	align-items: center;
+	height: 55px;
+	padding: 0 20px;
+	box-sizing: border-box;
+	font-size: 1.6em;
+}
+
+.swiper-slide img {
+	display: block;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.textBox{
+	width: 502;
+	max-height: 490px;
+	overflow-y: auto;
+	padding: 20px;
+	max-width: 60%;
+}
+
+.picBox{
+	width: 368px;
+	height: 490px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+
+	display: flex;
+	align-items: flex-end;
+}
+
+.imgCredit{
+	background-color: rgba(0, 0, 0, 0.25);
+	text-align: right;
+	color: #fff;
+	width: 100%;
+	padding: 5px;
+	font-size: 0.8em;
+	text-shadow: 1px 1px rgba(0, 0, 0, 0.5);
+}
+
+/*.contentBox p{
+	padding: 20px;
+}*/
+
+.swiper-button-white:after {
+	font-size: 20px;
+}
+
+.swiper-button-next{
+	/*align-self: flex-end;*/
+	left: 60px;
+}
+.swiper-button-prev{
+	/*align-self: flex-end;*/
+}
