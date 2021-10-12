@@ -65,6 +65,12 @@ body {
 
 	top: 575px;
 }
+.swiper-button-white::after{
+	transition: color 0.25s;
+}
+.swiper-button-white:hover::after{
+	color: #F00;
+}
 
 .contentBox{
 	flex: 1;
