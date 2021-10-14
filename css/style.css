@@ -111,8 +111,9 @@ body {
 }
 .text-box{
 	display: flex;
-	width: 60%;
-	padding: 15px 15px 5px;
+	width: 57.65%;
+	/*padding: 15px 15px 5px;*/
+	padding: 15px 30px 5px 15px;/*tg - 211015*/
 	flex-direction: column;
 	align-items: stretch;
 }
@@ -144,7 +145,7 @@ body {
 	text-align: right;
 }
 .pic-box{
-	width: 40%;
+	width: 42.35%;/*2:3 ratio - 35mm film*/
 	height: 100%;
 	background-position: center;
 	background-repeat: no-repeat;
