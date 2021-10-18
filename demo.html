@@ -1,0 +1,108 @@
+
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<title>Swiper demo</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1"/>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+		<!-- Link Swiper's CSS -->
+		<link rel="stylesheet"href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
+		<link rel="stylesheet"href="css/style.css">
+	</head>
+
+	<body>
+		<div class="container">
+			<!-- Swiper -->
+			<div class="swiper mySwiper">
+				<div class="swiper-wrapper">
+
+					<div class="swiper-slide">
+						<div class="slide-inner">
+							<div class="text-box">
+								<div class="heading">Lifeline to outback Queensland</div>
+								<div class="byline">Sean Fitzpatrick from Sydney</div>
+								<div class="pic-box pic-box-small" style="background-image: url(images/pic1.jpeg);"></div>
+								<div class="body-copy">
+									<p>It's a straight line that dissects the east coast of Australia but the $2billion inland rail link between Melbourne and Brisbane will unite states and pump life into rural communities. It will bring 21,00 jobs and with them all comes new hope and horizons for the outback.</p>
+								</div>
+								<div class="pointer-text">Here are some of the key facts ></div>
+								<div class="slide-footer">
+									<div class="date">18.10.21</div>
+									<div class="img-credit">image credit</div>
+								</div>
+							</div>
+							<div class="pic-box" style="background-image: url(images/pic1.jpeg);"></div>
+						</div>
+					</div>
+
+					<div class="swiper-slide">
+						<div class="slide-inner">
+							<div class="text-box">
+								<div class="heading">Lifeline to outback Queensland</div>
+								<div class="byline">Sean Fitzpatrick from Sydney</div>
+								<div class="pic-box pic-box-small" style="background-image: url(images/pic2.jpeg);"></div>
+								<div class="body-copy">
+									<p>It's a straight line that dissects the east coast of Australia but the $2billion inland rail link between Melbourne and Brisbane will unite states and pump life into rural communities. It will bring 21,00 jobs and with them all comes new hope and horizons for the outback.</p>
+								</div>
+								<div class="pointer-text">Here are some of the key facts ></div>
+								<div class="slide-footer">
+									<div class="date">18.10.21</div>
+									<div class="img-credit">image credit</div>
+								</div>
+							</div>
+							<div class="pic-box" style="background-image: url(images/pic2.jpeg);"></div>
+						</div>
+					</div>
+
+					<div class="swiper-slide">
+						<div class="slide-inner">
+							<div class="text-box">
+								<div class="heading">heading</div>
+								<div class="byline">byline</div>
+
+								<div class="pic-box pic-box-small">
+									<iframe src="https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d448029.7169440784!2d150.47238433925142!3d-28.682700974342968!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e0!4m5!1s0x6ba3a8dd421f64cf%3A0x40609b49043bb00!2sNorth%20Star%20NSW%202408!3m2!1d-28.932582399999998!2d150.39123419999999!4m5!1s0x6ba2c8df4ab43137%3A0x400eef17f20bca0!2sWhetstone%20QLD!3m2!1d-28.4933277!2d150.9153205!5e0!3m2!1sen!2sau!4v1634007965499!5m2!1sen!2sau" width="100%" height="100%" style="border:0;" allowfullscreen=""></iframe>
+								</div>
+
+								<div class="body-copy"><p>body copy...</p><p>an example of an embedded google map</p></div>
+								<div class="pointer-text">pointer text</div>
+								<div class="slide-footer">
+									<div class="date">dd.mm.yy</div>
+									<div class="img-credit">image credit</div>
+								</div>
+							</div>
+							<div class="pic-box">
+								<iframe src="https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d448029.7169440784!2d150.47238433925142!3d-28.682700974342968!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e0!4m5!1s0x6ba3a8dd421f64cf%3A0x40609b49043bb00!2sNorth%20Star%20NSW%202408!3m2!1d-28.932582399999998!2d150.39123419999999!4m5!1s0x6ba2c8df4ab43137%3A0x400eef17f20bca0!2sWhetstone%20QLD!3m2!1d-28.4933277!2d150.9153205!5e0!3m2!1sen!2sau!4v1634007965499!5m2!1sen!2sau" width="100%" height="100%" style="border:0;" allowfullscreen=""></iframe>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="swiper-pagination"></div>
+				<div class="swiper-button-next swiper-button"></div>
+				<div class="swiper-button-prev swiper-button"></div>
+			</div>
+		</div> 
+
+		<!-- Swiper JS -->
+		<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+		<!-- Initialize Swiper -->
+		<script>
+
+			var swiper = new Swiper(".mySwiper", {
+				// spaceBetween: 20,
+				pagination: {
+					el: ".swiper-pagination",
+					// dynamicBullets: true,
+					clickable: true,
+				},
+				navigation: {
+					nextEl: ".swiper-button-next",
+					prevEl: ".swiper-button-prev",
+				},
+			});
+		</script>
+	</body>
+</html>
